@@ -1,0 +1,17 @@
+{
+  "name": "BaseAPP Miniapp",
+  "description": "Starter Base miniapp with Farcaster authentication and signing support.",
+  "icon": "http://localhost:3000/icon.svg",
+  "splash_image": "http://localhost:3000/icon.svg",
+  "splash_background": "#0052ff",
+  "success_url": "http://localhost:3000/",
+  "website_url": "http://localhost:3000/",
+  "default_frame": "http://localhost:3000/api/frame",
+  "frames": [
+    {
+      "id": "session",
+      "name": "Farcaster Session",
+      "url": "http://localhost:3000/api/farcaster/session"
+    }
+  ]
+}
